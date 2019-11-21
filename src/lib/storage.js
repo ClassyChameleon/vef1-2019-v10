@@ -1,3 +1,4 @@
+//import {el} from './helpers';
 /**
  * Sækir og vistar í localStorage
  */
@@ -15,7 +16,14 @@ const LOCALSTORAGE_KEY = 'favourite_spacephotos';
  * @returns {array} fylki af myndum eða tóma fylkið ef ekkert vistað.
  */
 export function load() {
-
+  // TODO:
+  // taka úr local storage
+  // setja í array eins og sýnt er fyrir ofan
+  // kalla í el með document query fyrir parentið þar
+  // sem við ætlum að setja inn myndirnar og svo
+  // upplýsingarnar úr localstorage sem children.
+  // Kannski væri betra að gera for loop til að
+  // greina á milli mynda og myndbanda.
 }
 
 /**
@@ -27,7 +35,7 @@ export function load() {
  * @param {string} title titill fyrir myndina/myndbandið.
  */
 export function save(type, mediaUrl, text, title) {
-
+  
 }
 
 
